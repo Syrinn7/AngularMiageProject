@@ -1,0 +1,176 @@
+.rendu
+{
+  color: green;
+}
+.nonRendu
+{
+  color: red;
+}
+#button_ajout,#button_supp,#button_supp2{
+
+  margin-top: 10px;
+  position: absolute;
+  right: 0;
+  width: 120px;
+  transform: translateY(-50%);
+
+
+
+}
+.demo-table {
+  margin-top: 10px;
+  width: 100%;
+
+}
+.table{
+  display: flex;
+  justify-content: center;
+}
+
+.mat-column-demo-id {
+  width: 32px;
+    padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-demo-auteur {
+  padding-left: 16px;
+  font-size: 15px;
+}
+
+.mat-column-demo-dateDeRendu {
+  font-style: italic;
+}
+
+.mat-column-demo-rendu{
+
+  text-align: center;
+  font-weight: bold;
+}
+
+td{
+  cursor: pointer;
+}
+img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+
+}
+
+.assignmentInfo{
+  padding-left: 2%;
+}
+
+
+.custom-range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(to right, #b933bd, #ff00de); /* Dégradé de bleu à vert */
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  margin-bottom: 30px;
+}
+
+/* Style du thumb */
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF; /* Couleur blanche */
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #000000;
+}
+
+.custom-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF; /* Couleur blanche */
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #000000;
+}
+
+/* Style du thumb au survol */
+.custom-range::-webkit-slider-thumb:hover {
+  background: #F1F1F1;
+}
+
+.custom-range::-moz-range-thumb:hover {
+  background: #F1F1F1;
+}
+
+/* Style de la piste */
+.custom-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  background: linear-gradient(to right, #b933bd, #ff00de); /* Dégradé de bleu à vert */
+  border-radius: 5px;
+}
+
+.custom-range::-moz-range-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  background: linear-gradient(to right, #b933bd, #ff00de); /* Dégradé de bleu à vert */
+  border-radius: 5px;
+}
+.ClassTotal {
+  text-align: center;
+  font-family: 'Cursive', cursive; /* Police moderne */
+  color: #333; /* Couleur de texte standard */
+}
+
+.ClassTotal p {
+  color: #FF69B4; /* Rose bébé */
+}
+
+.custom-range {
+  -webkit-appearance: none;
+  width: 80%; /* Responsive width */
+  height: 10px;
+  border-radius: 5px;
+  background: #FFB6C1; /* Rose bébé clair */
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+button.mat-raised-button {
+  background-color: #FF69B4; /* Rose bébé */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px; /* Boutons avec bordures arrondies */
+  box-shadow: 0 4px #999;
+  cursor: pointer;
+}
+
+button.mat-raised-button:hover {
+  background-color: #FF85A2; /* Un rose légèrement plus clair */
+  box-shadow: 0 6px #777;
+  transform: translateY(-2px);
+}
+
+button.mat-raised-button:active {
+  background-color: #FF69B4;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+@media screen and (max-width: 600px) {
+  .custom-range {
+    width: 100%; /* Pleine largeur sur les petits écrans */
+  }
+}

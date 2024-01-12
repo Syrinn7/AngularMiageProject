@@ -1,0 +1,25 @@
+<form class="form" #formAssignment >
+  <mat-form-field>
+    <input
+
+           matInput
+           placeholder="Username:"
+           [(ngModel)]="email"
+           name="email">
+  </mat-form-field>&nbsp;
+  <mat-form-field>
+    <input
+           matInput
+           type="password"
+           placeholder="password:"
+           [(ngModel)]="password"
+           name="password"
+    >
+  </mat-form-field>&nbsp;
+  <button type="button" mat-flat-button style="margin-left: 20px"
+
+          (click)="onverif() ; formAssignment.reset"
+  > Connexion
+  </button >
+</form>
+
