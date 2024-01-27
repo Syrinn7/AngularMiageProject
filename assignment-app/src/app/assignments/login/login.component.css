@@ -4,9 +4,11 @@
   flex-direction: row;
   margin: 5px;
   justify-content: space-between;
+  font-size: 15px;
+
 }
 button{
   height: 30%;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 

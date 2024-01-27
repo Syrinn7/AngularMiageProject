@@ -31,6 +31,7 @@
   width: 32px;
     padding-right: 24px;
   text-align: center;
+
 }
 
 .mat-column-demo-auteur {
@@ -39,27 +40,31 @@
 }
 
 .mat-column-demo-dateDeRendu {
-  font-style: italic;
+
 }
 
 .mat-column-demo-rendu{
 
   text-align: center;
-  font-weight: bold;
+
 }
 
 td{
   cursor: pointer;
+
 }
 img{
   width: 50px;
   height: 50px;
   position: relative;
+  
 
 }
 
 .assignmentInfo{
   padding-left: 2%;
+  font-size: 15px;
+
 }
 
 
@@ -67,7 +72,7 @@ img{
   -webkit-appearance: none;
   width: 100%;
   height: 10px;
-  background: linear-gradient(to right, #b933bd, #ff00de); /* Dégradé de bleu à vert */
+  background: linear-gradient(to right, rgb(217, 183, 187), #af162d); /* Dégradé de rouge à rose */
   border-radius: 5px;
   outline: none;
   opacity: 0.7;
@@ -81,8 +86,8 @@ img{
   appearance: none;
   width: 20px;
   height: 20px;
-  background: #FFFFFF; /* Couleur blanche */
-  cursor: pointer;
+  background: #ffffff; /* Couleur blanche */
+  cursor:pointer;
   border-radius: 50%;
   box-shadow: 0px 0px 5px #000000;
 }
@@ -110,7 +115,7 @@ img{
   width: 100%;
   height: 10px;
   cursor: pointer;
-  background: linear-gradient(to right, #b933bd, #ff00de); /* Dégradé de bleu à vert */
+  background: linear-gradient(to right, rgb(217, 183, 187), #af162d); /* Dégradé de bleu à vert */
   border-radius: 5px;
 }
 
@@ -118,17 +123,18 @@ img{
   width: 100%;
   height: 10px;
   cursor: pointer;
-  background: linear-gradient(to right, #b933bd, #ff00de); /* Dégradé de bleu à vert */
+  background: linear-gradient(to right, rgb(217, 183, 187), #af162d); /* Dégradé de bleu à vert */
   border-radius: 5px;
 }
 .ClassTotal {
   text-align: center;
-  font-family: 'Cursive', cursive; /* Police moderne */
+  
   color: #333; /* Couleur de texte standard */
 }
 
 .ClassTotal p {
-  color: #FF69B4; /* Rose bébé */
+  color: #7c454e; /* Rose bébé */
+  font-weight: bold;
 }
 
 .custom-range {
@@ -136,14 +142,14 @@ img{
   width: 80%; /* Responsive width */
   height: 10px;
   border-radius: 5px;
-  background: #FFB6C1; /* Rose bébé clair */
+  background: #c27883; /* Rose bébé clair */
   outline: none;
   opacity: 0.7;
   transition: opacity 0.2s;
 }
 
 button.mat-raised-button {
-  background-color: #FF69B4; /* Rose bébé */
+  background-color: #c27883; /* Rose bébé */
   border: none;
   color: white;
   padding: 10px 20px;
@@ -152,23 +158,40 @@ button.mat-raised-button {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  border-radius: 12px; /* Boutons avec bordures arrondies */
+  border-radius: 4px; /* Boutons avec bordures arrondies */
   box-shadow: 0 4px #999;
   cursor: pointer;
 }
 
 button.mat-raised-button:hover {
-  background-color: #FF85A2; /* Un rose légèrement plus clair */
+  background-color: #d1a8ae; /* Un rose légèrement plus clair */
   box-shadow: 0 6px #777;
   transform: translateY(-2px);
 }
 
 button.mat-raised-button:active {
-  background-color: #FF69B4;
+  background-color: #ffffff;
   box-shadow: 0 2px #666;
   transform: translateY(4px);
 }
 
+.class_deb {
+  width: 120px;
+  height: 60px;
+}
+
+.class_prec {
+  width: 120px;
+  height: 60px;
+}
+.class_suiv {
+  width: 120px;
+  height: 60px;
+}
+.class_fin {
+  width: 120px;
+  height: 60px;
+}
 @media screen and (max-width: 600px) {
   .custom-range {
     width: 100%; /* Pleine largeur sur les petits écrans */
